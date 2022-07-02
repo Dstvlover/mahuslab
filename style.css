@@ -792,7 +792,7 @@ button[type="submit"]:hover{
         
     }
     h2{
-        font-size: 2.4rem;
+        font-size: 1.2rem;
     }
     h3{
         font-size: 1.6rem;
@@ -804,7 +804,7 @@ button[type="submit"]:hover{
         font-size: 0.7rem;
     }
     p{
-        font-size: 1.35rem;
+        font-size: 0.7rem;
     }
     a{
         font-size:  0.84rem;
@@ -932,23 +932,27 @@ button[type="submit"]:hover{
         text-align: center;
         background-color: white;
         color: #15c0c0bd;
+        font-size: 1.2rem;
 
     }
     .swiper-slide .details h4{
         color: black;
-        font-size: 1.5rem;
+        font-size: .8rem;
         text-align: center;
         margin: 0 auto;   
     }
     .swiper-slide .details h5{
         color: white;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: .7rem;
     }
     .swiper-slide .details p{
-        font-size: 1.5rem;
+        font-size: .7rem;
         color: var(--color-black);
         text-align: center;
+    }
+    .swiper-slide .details li{
+        font-size: .7rem;
     }
     .swiper-slide .details ul{
         font-size: 1.5rem;
@@ -957,6 +961,10 @@ button[type="submit"]:hover{
         text-align: center;
 
     }
+    
+
+
+
     /* ********************************** PROJECTS****************** */
     section#Projects .container{
         flex-direction: column;
@@ -977,10 +985,20 @@ button[type="submit"]:hover{
     }
     section#Projects .content article h4{
         color: var(--color-white);
-        font-size: 1.2rem;
+        font-size: .7rem;
         margin-top: 2rem;
     }
-    
+    section#Projects h2{
+        font-size: 1.2rem;
+    }
+    .uil-plus:before {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    section#Projects a.btn{
+        padding: 1%;
+        font-size: .7rem;
+    }
 
     /* ********************************** CTA****************** */
     section#cta .container{
@@ -993,10 +1011,10 @@ button[type="submit"]:hover{
         width: 100%;
     }
     section#cta .container .info h3{
-        font-size: 1.8rem;
+        font-size: .8rem;
     }
     section#cta .container .info p{
-        font-size: 1.2rem;
+        font-size: .7rem;
     }
     .btn{
         padding: .3em .5em ;
