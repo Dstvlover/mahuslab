@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #f24822;
-    --color-primary-variant: #ffc7bb;
+    --color-primary: #15c0c0bd;
+    --color-primary-variant: #2ca1e6;
     --color-black: #0a0a0c;
     --color-dark: #62656a;
     --color-white: #fff;
@@ -29,9 +29,10 @@ html{
 }
 
 body{
-    font-family: "Poppins" , sans-serif;
+    
     color: var(--color-dark);
     background: var(--color-white);
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -51,7 +52,7 @@ a{
 
 h1, h2, h3, h4, h5{
     color: var(--color-black);
-    font-family: "Abhaya Libre", serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
 
@@ -359,7 +360,7 @@ section#About-Us a:hover{
     margin-top: 1rem;
 }
 .swiper-slide .details ul{
-    font-style: italic;
+    list-style-type: solid;
     margin-right: -10rem;
     
 }
@@ -464,7 +465,7 @@ footer{
     margin-top: 8rem;
     padding-top: 5rem;
     font-size: 0.9rem;
-    color: var(--color-light);
+    color: var(--color-black);
     overflow: hidden;
 }
 footer .container {
@@ -493,11 +494,11 @@ footer .container ul li{
     margin-bottom: 2rem;
 }
 footer .container ul li a{
-    color: var(--color-light);
+    color: var(--color-black);
 }
 footer .container ul li a:hover{
     color: var(--color-white);
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer .container .form-group{
     position: relative;
@@ -669,8 +670,8 @@ button[type="submit"]:hover{
         cursor: pointer;
         background: transparent;
         color: var(--color-black);
-        margin-right: 2rem;
-        font-size: 1.6rem;
+        margin-right: 1rem;
+        font-size: 2rem;
     }
     nav button#close-btn{
         display: none;
@@ -723,6 +724,13 @@ button[type="submit"]:hover{
     section#About-Us .container{
         width: var(--mobile-width);
     }
+    #About-Us .info p{
+        width: 85%;
+    }
+    .swiper .details ul{
+    
+        width: 94%;
+    }
    
      /* ********************************** PROJECTS ****************** */
     
@@ -759,7 +767,10 @@ button[type="submit"]:hover{
     }
     section#cta .container .btn{
         z-index: 1;
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+    section#cta .container .info h3{
+        font-size: 1.5em;
     }
 
 }
@@ -813,6 +824,9 @@ button[type="submit"]:hover{
 
     nav .container .icons{
         gap: 1rem;
+    }
+    .uil .uil-bars{
+        border: solid;
     }
 
     /* ********************************** HEADER****************** */
@@ -908,26 +922,25 @@ button[type="submit"]:hover{
         
     }
     .swiper-slide .image{
-        align-content: center;
-        margin-left: 7.9rem;
+      
+        margin: 0 auto;
     }
     .swiper-slide .details h3{
         text-align: center;
         background-color: white;
+        color: #15c0c0bd;
 
     }
     .swiper-slide .details h4{
         color: black;
         font-size: 1.5rem;
-        text-align: center;    
-    }
-    .swiper-slide .details small{
-        color: white;
-        font-size: 1.5rem;
         text-align: center;
-        align-content: center;
-        margin-left: 8rem;
-        margin: 9.915rem;
+        margin: 0 auto;   
+    }
+    .swiper-slide .details h5{
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
     }
     .swiper-slide .details p{
         font-size: 1.5rem;
@@ -937,7 +950,8 @@ button[type="submit"]:hover{
     .swiper-slide .details ul{
         font-size: 1.5rem;
         color: var(--color-black);
-        margin-right: 4rem;
+        margin: 0 auto;
+        text-align: center;
 
     }
     /* ********************************** PROJECTS****************** */
@@ -981,6 +995,12 @@ button[type="submit"]:hover{
     section#cta .container .info p{
         font-size: 1.2rem;
     }
+    .btn{
+        padding: .3em .5em ;
+        margin-top: 1em;
+        font-size: .34em;
+    }
+
 
     /* ********************************** FOOTER****************** */
     footer .container{
