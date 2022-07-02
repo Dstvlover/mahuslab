@@ -13,16 +13,17 @@ section#contact aside{
 
 section#contact aside h4{
     color: var(--color-black);
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 section#contact aside p{
     color: white;
+    font-size: .8em;
 }
 section#contact aside small{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 
@@ -65,8 +66,40 @@ section#contact form textarea :focus{
     color: white;
 }
 section#contact form button{
-    width: 8rem;
+    width: 3.5em;
     color: white;
+    font-size: 1rem;
+    padding: .5em;
+    
+    
+}
+footer .container .enquiry h4{
+    font-size: 1rem;
+}
+label{
+    font-size: .8rem;
+}
+button[type="submit"]{
+    padding: .2em;
+    font-size: .8rem;
+    width: 20%;
+}
+
+footer .container h4{
+    font-size: 0.8rem;
+}
+
+footer .container ul li a{
+    font-size: .8rem;
+}
+footer .container .f4 p {
+    font-size: .9em;
+}
+footer .copyrightText .text-gray{
+    font-size: 0.7rem;
+}
+footer .copyrightText .text-gray a{
+    font-size: .75rem;
 }
 
 /* *************************** Media Queries ************************************ */
