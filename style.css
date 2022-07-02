@@ -992,12 +992,16 @@ button[type="submit"]:hover{
         font-size: 1.2rem;
     }
     .uil-plus:before {
+
         font-size: 0.8rem;
-        margin: 0;
+
     }
     section#Projects a.btn{
         padding: 1%;
         font-size: .7rem;
+    }
+    section#Projects .content article.open p{
+        font-size: .8rem;
     }
 
     /* ********************************** CTA****************** */
@@ -1021,6 +1025,7 @@ button[type="submit"]:hover{
         margin-top: 1em;
         font-size: .34em;
     }
+
 
 
     /* ********************************** FOOTER****************** */
